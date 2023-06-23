@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/livinglink-webapp/static/css/main.9523ed23.css",
+    "main.js": "/livinglink-webapp/static/js/main.405ee978.js",
+    "static/media/bg.png": "/livinglink-webapp/static/media/bg.32bfdeb47acb7929ff48.png",
+    "static/media/payment-icon.png": "/livinglink-webapp/static/media/payment-icon.d710c94d8a1f7d6cb6d9.png",
+    "static/media/settings.png": "/livinglink-webapp/static/media/settings.7ada415761c1dff1e356.png",
+    "static/media/dashboard-icon.png": "/livinglink-webapp/static/media/dashboard-icon.cfd3aeec8268aefc6f5a.png",
+    "static/media/logo.png": "/livinglink-webapp/static/media/logo.69262c00424da5008a58.png",
+    "static/media/feedback-icon.png": "/livinglink-webapp/static/media/feedback-icon.5156ba2fd992d201c2b5.png",
+    "static/media/recentpayments-icon.png": "/livinglink-webapp/static/media/recentpayments-icon.53815ee72d8d3eab08b3.png",
+    "static/media/mytenants-icon.png": "/livinglink-webapp/static/media/mytenants-icon.2190da6b2d2ef5186259.png",
+    "index.html": "/livinglink-webapp/index.html",
+    "main.9523ed23.css.map": "/livinglink-webapp/static/css/main.9523ed23.css.map",
+    "main.405ee978.js.map": "/livinglink-webapp/static/js/main.405ee978.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9523ed23.css",
+    "static/js/main.405ee978.js"
+  ]
+}
