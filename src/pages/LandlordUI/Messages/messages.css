@@ -1,0 +1,42 @@
+.messages-Container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(60deg, #492b0e, #684729);
+    height: 90vh;
+}
+
+.messages{
+    color: white;
+    margin-top: 1vw;
+    margin-left: 20vh;
+    
+}
+
+.messages.open{
+  position: absolute;
+  left: 11vw;
+  transition: right 0.3s ease;
+}
+
+.messages.rowni{
+    display: flex;
+    flex-direction: row;
+    gap: 800px
+  }
+
+.messages-card{
+    width: 75vw; 
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+  
+.messages-name{
+    font-size: 20px;
+    text-align: center;
+    width: 35vw;
+  }
+  

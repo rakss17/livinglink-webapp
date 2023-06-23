@@ -1,0 +1,28 @@
+.buttonn{
+    border: none;
+    width: 30vw;
+    height: 6vh;
+    border-radius: 15px;
+    background: #381D04;
+    color: white;
+}
+.buttonn:hover{
+    background: linear-gradient(100deg,#d4b190,#eba461  );
+    color: black;
+    cursor: pointer;
+}
+
+.buttonmodal {
+    background: #684729;
+      width: 8vw;
+      height: 6vh;
+      border-radius: 20px;
+      border: none;
+      color: white;
+      cursor: pointer;
+      margin-left: 1vw;
+      font-family: 'Courier Bold';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+  }

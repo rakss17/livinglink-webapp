@@ -1,0 +1,303 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -24vh; 
+  width: 15.5rem;
+  transition: left 0.3s ease;
+  background-color: #43260B;
+  
+}
+
+.sidebar.open {
+  left: 0; 
+}
+.toggle{
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  
+}
+.toggleheader{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+.toggleheader p{
+  font-family: 'Luxurious Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  margin-left: 7vh;
+}
+.buttontoggle {
+  
+  margin-left: 2vh;
+  padding: 10px;
+  border: none;
+  background-color: #43260B;
+  cursor: pointer;
+}
+.buttontoggle img{
+  width: 3rem;
+  height: 3rem;
+}
+.buttontoggle img:hover{
+  animation: zoom-in-out 0.5s ease-in-out;
+}
+.buttonicons{
+  margin-top: 0rem;
+  border: none;
+  cursor: pointer;
+  background: none;
+  width: 4.5rem;
+  height: 4rem;
+  margin-left: 24vh;
+  
+}
+.buttonicons:hover{
+  border: none;
+  cursor: pointer;
+  animation: zoom-in-out 0.5s ease-in-out;
+  
+}
+.buttonicons img {
+  
+  width: 3rem;
+  height: 3rem;
+}
+.iconss{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+  
+}
+
+.itemsnamebutton{
+  background-color: #684729;
+  color: white;
+  font-family: 'Luxurious Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height:1.3rem;
+  text-align: center;
+  margin-top: 1vw;
+  border-radius: 15px;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+  width: 13rem;
+}
+
+.itemsnamebutton:hover{  
+  background: linear-gradient(100deg,#d4b190,#eba461  );
+  color: black;
+  cursor: pointer;
+}
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sidebar li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-evenly;
+  margin: 0;
+  padding: 10px;
+}
+
+.settings{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vw;
+  
+}
+
+
+.buttoniconss{
+  margin-top: 5vw;
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 4.5rem;
+  height: 4rem;
+  margin-left: 24vh;
+  
+}
+.buttoniconss:hover{
+  border: none;
+  cursor: pointer;
+  animation: zoom-in-out 0.5s ease-in-out;
+}
+.buttoniconss img {
+  
+  width: 3rem;
+  height: 3rem;
+}
+.itemsnamebuttonn{
+  background-color: #684729;
+  color: white;
+  font-family: 'Luxurious Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+  text-align: center;
+  margin-top: 1vw;
+  border-radius: 15px;
+  height: 3rem;
+  border: none;
+  cursor: pointer;
+  width: 13rem;
+}
+.margintop{
+  margin-top: 4vw;
+}
+.itemsnamebuttonn:hover{  
+  background: linear-gradient(100deg,#d4b190,#eba461  );
+  color: black;
+  cursor: pointer;
+}
+.messangenotif{
+  
+  height: 4rem;
+  width: 15.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2vw;
+  border: none;
+  cursor: pointer;
+  margin-left: 1vh;
+  
+}
+.messangenotif ul {
+  
+  list-style: none;
+}
+
+.messagebutton{
+  width: 4.5rem;
+  height: 4.5rem;
+  border: none;
+  background-color: #43260B;
+  cursor: pointer;
+  margin-left: 1vh;
+  color: white;
+  font-size: 0.9rem;
+}
+.messagebutton:hover{
+  animation: zoom-in-out 0.5s ease-in-out;
+  cursor: pointer;
+}
+.messagebutton img{
+  width: 3rem;
+  height: 3rem;
+  animation: zoom-in-out 0.5s ease-in-out;
+}
+.notifbutton{
+  width: 4.5rem;
+  height: 4.5rem;
+  border: none;
+  background-color: #43260B;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+}
+.notifbutton:hover{
+  animation: zoom-in-out 0.5s ease-in-out;
+  cursor: pointer;
+}
+.notifbutton img{
+  width: 3rem;
+  height: 3rem;
+}
+
+@media screen and (max-width: 768px)  {
+  .sidebar {
+    top: 0;
+    bottom: 0;
+    width: 16rem;
+    left: -24vh; 
+    
+  }
+
+  .sidebar.open {
+    left: 0;
+    width: 13rem;
+  }
+  
+
+  
+
+  .sidebar.open .buttonicons,
+  .sidebar.open .itemsnamebutton,
+  .sidebar.open .itemsnamebuttonn {
+    margin-top: 0.5rem;
+    width: 10rem;
+    font-size: 15px;
+  }
+  
+  
+  .sidebar.open .toggleheader,
+  .sidebar.open .toggleheader p{
+    font-size: 1.5rem;
+    margin-left: 2vh;
+    
+  }
+
+  .side.open .messagebutton img{
+    width: 1rem;
+    height: 2rem;
+    
+  }
+  .side.open .messangenotif .messagebutton{
+    margin-left: 1vh;
+    font-size: 0.7rem;
+    gap: 10px;
+  }
+  
+  .buttontoggle img{
+    width: 2.8rem;
+    height: 3.5rem;
+  }
+  .messagebutton{
+    width: 1rem;
+    font-size: 0.9rem;
+  }
+  .buttonicons img {
+    
+    width: 2.8rem;
+    height: 3rem;
+  }
+  .buttonicons{
+    margin-top: 0vw;
+    border: none;
+    cursor: pointer;
+    background: none;
+    width: 4.5rem;
+    height: 4rem;
+    margin-left: 24vh;
+    
+  }
+  
+  
+  
+  
+  
+}
+
+
+
+

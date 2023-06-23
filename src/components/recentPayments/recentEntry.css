@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.RecentEntry{
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
+    flex-wrap: wrap;
+    position: fixed;
+    max-height: 70vh;
+    overflow-y: auto;
+    padding-bottom: 50px;
+}
+.RecentEntry:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tenantcard-RecentEntry{
+    background-color: #43260B;
+    width: 75vw; 
+    height: 10vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+
+}
+
+.RecentEntry-name{
+  text-align: center;
+  width: 35vw;
+}
+
+@media screen and (max-width: 600px) {
+    .property {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  .modalproperty {
+    background: #43260B;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5vw;
+    padding-left: 7vh;
+    
+    width: 50vw;
+    height: 75vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  
+  .modalproperty h3{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: start;
+    margin-top: 1vw;
+  }
+  .modalproperty h2{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    margin-top: 1vw;
+  }
+  .modalproperty p{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    
+    line-height: 28px;
+    
+    text-align: center;
+  }
+  .buttonss{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 2vw;
+    margin-right: 6vh;
+  }
+  
+  

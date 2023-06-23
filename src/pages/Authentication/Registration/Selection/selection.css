@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, #492b0e, #684729);
+    height: 90vh;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 75vh;
+    flex-direction: row;
+}
+.background{
+    background-image: url('../../../../components/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 65vh;
+    width: 35vw;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    margin-left: 6vw;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text p{
+    color: white;
+    font-size: 75px;
+    font-family: 'Lusitana';
+    font-weight: 400;
+    text-align: center;
+    
+}
+.text span{
+    margin-top: 3vw;
+    color: white;
+    font-family: 'Luxurious Roman';
+    font-size: 30px;
+    list-style: none;
+    line-height:0%;
+    letter-spacing:5px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.logoo{
+    display: flex;
+}
+.image{
+    position: absolute;
+    top: 1.5%;
+    left: 4%;
+    width: 3.5vw;
+    height: 7.5vh;
+    
+}
+
+.image:hover{
+    animation: zoom-in-out 0.5s ease-in-out;
+}
+@keyframes zoom-in-out {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.para{
+    position: absolute;
+    top: 3.5%;
+    left: 8%;
+    font-size: 25px;
+    color: white;
+    font-family: "Lusitana";
+}
+.signup{
+    background: #684729;
+    cursor: pointer;
+}
+.homebutton{
+    background-color: none;
+}
+.select{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 65vw;
+    height: 60vh;
+    background-color: #684729;
+    margin-right: 8vw;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+}
+.signuptext{
+    margin-top: 2vw;
+    font-family: 'Luxurious Roman';
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.selectbutton {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.selectbutton text{
+    font-family: 'Luxurious Roman';
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 50px;
+    text-align: center;   
+}

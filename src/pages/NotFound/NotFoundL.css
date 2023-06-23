@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, #492b0e, #684729);
+    height: 90vh;
+}
+.logout{
+    background: #684729;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 1vw;
+    font-family: 'Courier Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.checkinform{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    width: 40vw;
+    height: 50vh;
+    background-color: #684729;
+    margin-right: 8vw;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.15);
+}
+.checkinform p{
+    margin-top: 1vw;
+    font-family: 'Luxurious Roman';
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 72px;
+    text-align: center;
+}
+
+.propertyname{
+    
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.propertyname input{
+    width: 29.5vw;
+    
+}
+
+
+.roomnumber{
+    
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.roomnumber input{
+    width: 29.5vw;
+    align-items: center;
+    
+}
+

@@ -1,0 +1,20 @@
+.inputfieldd input{
+    background: none;
+    width: 14vw;
+    height: 8vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+    
+}
+.inputfieldd input:focus{
+    outline: none;
+    border-color: #381D04;
+}
+.inputfieldd input::placeholder {
+    color: white;
+  }
+  

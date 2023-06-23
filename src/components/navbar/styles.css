@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+
+.banner{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: #43260B;
+    justify-content: center;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-left: 60%;
+    
+}
+.signup{
+    background: #381D04;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-right: 50px;
+}
+.signup:hover{
+    background: linear-gradient(100deg,#d4b190,#eba461  );
+    color: black;
+    
+}
+.signin{
+    background: #381D04;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    
+}
+.signin:hover{
+    background: linear-gradient(100deg,#d4b190,#eba461  );
+    color: black;
+    
+}

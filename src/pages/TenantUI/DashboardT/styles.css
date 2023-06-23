@@ -1,0 +1,45 @@
+.containerT{
+    display: flex;
+    
+    background: linear-gradient(60deg, #492b0e, #684729);
+    height: 90vh;
+}
+.infocontainer{
+    color: white;
+    margin-top: 5vw;
+    margin-left: 20vh;
+    gap: 20px
+    
+}
+.infocontainer p{
+    font-size: 30px;
+}
+.infocontainer.open {
+    
+    margin-top: 5vw;
+    position: absolute;
+    left: 11vw;
+    transition: right 0.3s ease;
+   
+    
+  }
+.logout{
+    background: #684729;
+    width: 8vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 1vw;
+    font-family: 'Courier Bold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+       
+}

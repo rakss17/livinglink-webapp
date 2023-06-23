@@ -1,0 +1,20 @@
+  .selectt select{
+  
+    background-color: #684729;
+    width: 14vw;
+    height: 5vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    border-color: white;
+    font-size: 15px;
+    margin-top: 1.4vw;
+  }
+  .selectt select:focus{
+    outline: none;
+    border-color: #381D04;
+}
+.selectt select::placeholder {
+    color: white;
+  }

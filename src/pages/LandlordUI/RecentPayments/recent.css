@@ -1,0 +1,42 @@
+.Recent-Container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(60deg, #492b0e, #684729);
+    height: 90vh;
+}
+
+.Recent{
+    color: white;
+    margin-top: 1vw;
+    margin-left: 20vh;
+    
+}
+
+.Recent.open{
+  position: absolute;
+  left: 11vw;
+  transition: right 0.3s ease;
+}
+
+.Recent.rowni{
+    display: flex;
+    flex-direction: row;
+    gap: 800px
+  }
+
+.titlecard-Recent{
+    width: 75vw; 
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+  }
+  
+.Recent-name{
+    font-size: 20px;
+    text-align: center;
+    width: 35vw;
+  }
+  

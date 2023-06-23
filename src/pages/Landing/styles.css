@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, #492b0e, #684729);
+    height: 90vh;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 75vh;
+    flex-direction: row;
+}
+.background{
+    background-image: url('../../components/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 65vh;
+    width: 35vw;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.text p{
+    color: white;
+    font-size: 75px;
+    font-family: 'Lusitana';
+    font-weight: 400;
+    text-align: center;
+    
+}
+/* .text span{
+    margin-top: 3vw;
+    color: white;
+    font-family: 'Luxurious Roman';
+    font-size: 30px;
+    list-style: none;
+    line-height:0%;
+    letter-spacing:5px;
+    font-style: normal;
+    font-weight: 400;
+} */
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 36.8vw;
+    height: 80vh;
+}
+.about img{
+    margin-top: -5vw;
+    margin-bottom: 3vw;
+}
+.about img:hover{
+    animation: zoom-in-out 0.5s ease-in-out;
+}
+@keyframes zoom-in-out {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.about p{
+    font-family: 'Luxurious Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.checktext{
+    margin-top: 2vh;
+}
+
+.typing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 0.15em solid white;
+    animation: typing 2s steps(40, end), blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
+  .hidden {
+    display: none;
+  }
+  
+  .show-text {
+    display: block;
+  }
+  
+.signupp{
+    background: #381D04;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    margin-right: 50px;
+}
+.signupp:hover{
+    background: linear-gradient(100deg,#d4b190,#eba461  );
+    color: black;
+    cursor: pointer;
+}
+.signinn{
+    background: #381D04;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    
+}
+.signinn:hover{
+    background: linear-gradient(100deg,#d4b190,#eba461  );
+    color: black;
+    cursor: pointer;
+    
+}

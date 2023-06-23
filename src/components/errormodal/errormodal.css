@@ -1,0 +1,51 @@
+.modalsignin {
+    background: linear-gradient(100deg,#e24226,#ec0f0f  );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    height: 45vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.modalsignin h2{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: 0.195em;
+    text-align: center;
+}
+.modalsignin p{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    
+    line-height: 28px;
+    
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.Ok {
+    background-color: #381D04;
+    color: white;
+    font-size: 24px;
+    width: 10vw;
+    padding: 10px ;
+    border: 0;
+    cursor: pointer;
+    margin-right: 10%;
+}

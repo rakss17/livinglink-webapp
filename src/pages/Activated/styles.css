@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lusitana&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(60deg, #492b0e, #684729);
+    height: 90vh;
+}
+.intro{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95vw;
+    height: 75vh;
+    flex-direction: row;
+}
+.background{
+    background-image: url('../../components/images/bg.png');
+    background-repeat: no-repeat;
+    background-size: 65vh;
+    width: 35vw;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    margin-left: 10vw;
+}
+.textactivated{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.textactivated p{
+    color: white;
+    font-size: 50px;
+    font-family: 'Lusitana';
+    font-weight: 400;
+    text-align: center;
+    
+}
+  
+.blank1{
+  background-color: #43260B;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    color: #43260B;
+    margin-right: 50px;
+}
+
+.blank2{
+  background-color: #43260B;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: none;
+    color: #43260B;
+    
+}
